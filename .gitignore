@@ -1,0 +1,71 @@
+```
+# PlatformIO
+.platformio/
+.piolibdeps/
+*.pio/
+pioenvs/
+piolib/
+.sconsign.dblite
+.scons/
+.project
+.cproject
+.settings/
+
+# Arduino
+*.hex
+*.elf
+*.bin
+*.map
+*.lss
+
+# Android
+*.iml
+*.ipr
+*.iws
+.gradle/
+build/
+app/build/
+.idea/
+*.apk
+*.aar
+*.so
+*.jar
+local.properties
+captures/
+.externalNativeBuild
+cxx/
+*.keystore
+*.jks
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.hprof
+.DS_Store
+
+# Gradle
+.gradle/
+gradle-app.setting
+build/
+
+# Environment
+.env
+.env.local
+.env.*
+.env~MRCONFIG
+.env~MRPACKAGE
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+```
