@@ -1,71 +1,67 @@
 ```
-# PlatformIO
-.platformio/
-.piolibdeps/
-*.pio/
-pioenvs/
-piolib/
-.sconsign.dblite
-.scons/
-.project
-.cproject
-.settings/
-
-# Arduino
-*.hex
-*.elf
-*.bin
-*.map
-*.lss
-
-# Android
-*.iml
-*.ipr
-*.iws
-.gradle/
-build/
-app/build/
-.idea/
+# Android build artifacts
 *.apk
 *.aar
-*.so
-*.jar
-local.properties
-captures/
-.externalNativeBuild
-cxx/
-*.keystore
-*.jks
-
-# Java
+*.dex
 *.class
-*.jar
-*.war
-*.ear
-*.nar
-*.hprof
-.DS_Store
+
+# Android build directories
+build/
+.gradle/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.log
 
 # Gradle
 .gradle/
-gradle-app.setting
-build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Keystore
+*.keystore
+*.jks
+
+# Compiled source
+*/bin/
+*/gen/
+*/out/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv.bak/
+env.bak/
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
-.env~MRCONFIG
-.env~MRPACKAGE
+*.env.*
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 ```
